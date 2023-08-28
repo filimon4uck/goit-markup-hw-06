@@ -7,3 +7,11 @@
 @import url(./layout/modal-window.css);
 @import url(./layout/sections-index.css);
 @import url(./layout/sections-portfolio.css);
+.hero-back-gr-image {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("../images/mobile-images/Dark-bg1x.jpg");
+}
