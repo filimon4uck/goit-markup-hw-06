@@ -55,6 +55,9 @@
     height: 100vh;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 80px 35px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .mobile-menu.is-open {
     transform: translateX(0%);
@@ -72,7 +75,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 40px;
-    margin-bottom: 284px;
   }
   .mobile-menu-item-link {
     color: var(--navy-blue, #2e2f42);
@@ -91,7 +93,11 @@
     display: flex;
     flex-direction: column;
     row-gap: 40px;
-    margin-bottom: 48px;
+  }
+  .addres-socials-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
   }
 
   .mobile-menu-contact-list-item-link.tel {
