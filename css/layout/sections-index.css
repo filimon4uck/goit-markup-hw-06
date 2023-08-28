@@ -1,5 +1,6 @@
 .hero-back-gr-image {
   width: 100%;
+  z-index: 9999;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
