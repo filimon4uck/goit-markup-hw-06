@@ -10,7 +10,7 @@
   background-size: cover;
   width: 100%;
 }
-@media (min-device-pixel-ratio: 2),
+/* @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-back-gr-image {
@@ -28,7 +28,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/tablet-images/Dark-bg1x.jpg@);
+      url(./images/tablet-images/Dark-bg1x.jpg);
 
     width: 100%;
   }
@@ -51,7 +51,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/desktop-images/people_office1x.jpg);
+      url(./images/desktop-images/people-office1x.jpg);
 
     width: 100%;
   }
@@ -67,9 +67,9 @@
         url(./images/desktop-images/people-office@2x.jpg);
     }
   }
-}
+} */
 @media screen and (min-width: 320px) {
-  /* <section 1> */
+  /* <section 1>*/
   .hero {
     padding-top: 112px;
     padding-bottom: 112px;
