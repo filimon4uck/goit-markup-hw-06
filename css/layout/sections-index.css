@@ -3,7 +3,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/mobile-images/Dark-bg1x.jpg);
+    url(./images/mobile-images/Dark-bg1x.jpg);
 
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/mobile-images/Dark-bg@2x.jpg);
+      url(./images/mobile-images/Dark-bg@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -27,7 +27,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/tablet-images/Dark-bg1x.jpg);
+      url(./images/tablet-images/Dark-bg1x.jpg@);
 
     width: 100%;
   }
@@ -40,7 +40,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/tablet-images/Dark-bg@2x.jpg);
+      url(./images/tablet-images/Dark-bg@2x.jpg);
   }
 }
 @media screen and (min-width: 1168px) {
@@ -49,7 +49,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/desktop-images/people_office1x.jpg);
+      url(./images/desktop-images/people_office1x.jpg);
 
     width: 100%;
   }
@@ -62,7 +62,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/desktop-images/people-office@2x.jpg);
+      url(./images/desktop-images/people-office@2x.jpg);
   }
 }
 
