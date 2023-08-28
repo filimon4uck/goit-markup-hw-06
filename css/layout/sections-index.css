@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images/mobile-images/Dark-bg1x.jpg");
+    url(../images/mobile-images/Dark-bg1x.jpg);
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -15,7 +15,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/mobile-images/Dark-bg@2x.jpg");
+      url(../images/mobile-images/Dark-bg@2x.jpg);
   }
 }
 
@@ -25,7 +25,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/tablet-images/Dark-bg1x.jpg");
+      url(../images/tablet-images/Dark-bg1x.jpg);
 
     width: 100%;
   }
@@ -38,7 +38,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url("../images/tablet-images/Dark-bg@2x.jpg");
+        url(../images/tablet-images/Dark-bg@2x.jpg);
     }
   }
 }
@@ -48,7 +48,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/desktop-images/people-office1x.jpg");
+      url(../images/desktop-images/people-office1x.jpg);
 
     width: 100%;
   }
@@ -61,7 +61,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url("../images/desktop-images/people-office@2x.jpg");
+        url(../images/desktop-images/people-office@2x.jpg);
     }
   }
 }
@@ -71,6 +71,7 @@
     padding-top: 112px;
     padding-bottom: 112px;
     background-color: var(--navy-blue);
+    z-index: 9999;
   }
 
   .hero-title {
@@ -136,6 +137,7 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 8px;
   }
   .advantages-list-item-text {
     color: var(--slate, #434455);
@@ -296,6 +298,9 @@
     margin: 0 auto 36px auto;
   }
   /* section2 */
+  .advantages-list-item-title {
+    font-size: 56px;
+  }
   .advantages-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -328,6 +333,11 @@
 
   .customers-list-item {
     width: calc((100% - 48px) / 3);
+  }
+  .customers-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 552px;
   }
   .mobile-menu-open-button {
     display: none;
@@ -373,6 +383,7 @@
     width: calc((100% - 72px) / 4);
   }
   .advantages-list-item-title {
+    font-size: 20px;
     text-align: left;
   }
   /* section2 */
@@ -400,6 +411,9 @@
   /* section5 */
   .customers-list-item {
     width: calc((100% - 120px) / 6);
+  }
+  .customers-container {
+    width: 100%;
   }
 
   /* section5 */

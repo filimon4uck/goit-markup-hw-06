@@ -166,6 +166,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 12px;
+    font-size: 12px;
   }
   .menu-list-items {
     gap: 40px;
@@ -226,6 +227,7 @@
     flex-direction: row;
     gap: 40px;
     align-items: center;
+    font-size: 16px;
   }
   .logotype-black {
     margin-right: 76px;
